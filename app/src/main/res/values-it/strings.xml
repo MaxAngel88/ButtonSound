@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ButtonSound</string>
+    <string name="box_Enter_your_message">Scrivi il messaggio</string>
+    <string name="msg_Send_to_the_next_Activity">Invia alla prossima attività</string>
+    <string name="btn_Share">Condividi</string>
+    <string name="toast_message">Cliccato!!</string>
+    <string name="btn_gridGallery">Galleria Grid</string>
+</resources>

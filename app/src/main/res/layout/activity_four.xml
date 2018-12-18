@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+    <GridView
+            android:id="@+id/gvFoods"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnWidth="150dp"
+            android:horizontalSpacing="15dp"
+            android:numColumns="auto_fit"
+            android:verticalSpacing="15dp" />
+
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/cocacola"
+               android:id="@+id/cocacola_view"
+               tools:ignore="InvalidId"/>
+
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/arancini"
+               android:id="@+id/arancini_view"
+               tools:ignore="InvalidId"/>
+
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/lasagne"
+               android:id="@+id/lasagne_view"
+               tools:ignore="InvalidId"/>
+
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/panino"
+               android:id="@+id/panino_view"
+               tools:ignore="InvalidId"/>
+
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/patatine"
+               android:id="@+id/patatine_view"
+               tools:ignore="InvalidId"/>
+
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/pizza"
+               android:id="@+id/pizza_view"
+               tools:ignore="InvalidId"/>
+
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/tiramisu"
+               android:id="@+id/tiramisu_view"
+               tools:ignore="InvalidId"/>
+
+</LinearLayout>
